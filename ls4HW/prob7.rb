@@ -14,3 +14,5 @@ puts "\n#{user1array[0][1]} #{user1array[1][1]} was born in #{user1array[4][1]}.
 # user1array[user1array.size] = [":currentcity", "Atlanta, GA"]
 user1array.push([":currentcity", "Atlanta, GA"])
 puts "Currently lives in #{user1array[5][1]}."
+
+# Added this to make a change so I can commit
