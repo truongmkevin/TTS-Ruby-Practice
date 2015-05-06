@@ -32,11 +32,16 @@ until generated_number == 7 do
 end
 
 # Generated number equals 7 in order to reach this code
+# number_less_than_six_counter = 0
+# generated_number_array.each do |index| # This index method does not work!!! In this case 'index' is not the array index. It is actually the ELEMENTS of the array.
+#   if generated_number_array[index] < 6
+#     number_less_than_six_counter += 1
+#   end
+# end
+
 number_less_than_six_counter = 0
-generated_number_array.each do |index|
-  value = generated_number_array[index]
-  # if generated_number_array[index] < 6
-  if value < 6
+generated_number_array.each do |number| # this parameter will loop through EACH of the ELEMENTS of the array
+  if number < 6
     number_less_than_six_counter += 1
   end
 end
